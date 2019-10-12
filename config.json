@@ -1,0 +1,9 @@
+{
+    "DiscordToken": "DISCORDTOKENHERE",
+    "DiscordStatus": "Still in development",
+    "ControllerID": "",
+    "commandDelimeter": "*",
+    "WhitelistState": true,
+    "WhitelistedUsers": [],
+    "BannedUsers": []
+}

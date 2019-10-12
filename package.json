@@ -1,0 +1,23 @@
+{
+  "name": "whitelist-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Starystars67/Whitelist-Plus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Starystars67/Whitelist-Plus/issues"
+  },
+  "homepage": "https://github.com/Starystars67/Whitelist-Plus#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "discord.js": "vecchiotom/discord.js"
+  }
+}
