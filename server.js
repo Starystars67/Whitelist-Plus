@@ -102,7 +102,7 @@ on('playerConnecting', (name, setKickReason) => {
       plr.id.ip = identifier;
     }
   }
-  if (plr.id.discord.indexOf('discord') === -1) {
+  if (typeof plr.id.discord === 'undefined' || plr.id.discord.indexOf('discord') === -1) {
     console.log("Player Does not have discord running");
     setKickReason("Unable to find DiscordID, please relaunch FiveM with discord open or restart FiveM & Discord if Discord is already open");
     CancelEvent();
